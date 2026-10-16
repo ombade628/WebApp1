@@ -10,7 +10,7 @@ import com.demoWebApp.webApp1.model.Product;
 @Service
 public class ProductService {
 	 
-	List<Product> products = Arrays.asList(new Product(1,"Ipone",100000),new Product(2,"Samsung", 50000 )) ; 
+	List<Product> products = Arrays.asList(new Product(1,"Ipone",100000), new Product(2,"Samsung", 50000 ), new Product(3,"Vivo",20000) ) ; 
 	public List<Product> getProducts() {
 		return products ;  
 	}
